@@ -1,0 +1,19 @@
+从Ubuntu 20.04版本开始，C-Kermit无法从apt源安装。
+
+sudo apt-get install ckermit # 安装会失败
+
+解压当前目录下一个源代码与补丁，覆盖补丁过去。
+
+安装依赖：
+sudo apt-get install libpam0g-dev
+
+/usr/bin/ld: cannot find -lncurses:
+sudo apt-get install libncurses-dev
+
+执行make linux编译。
+
+sudo cp wermit /usr/local/bin/kermit
+
+
+ubuntu20.04 编译安装ckermit :
+https://www.cnblogs.com/ImagineMiracle-wxn/p/Ubuntu20_Compile_C-kermit.html
