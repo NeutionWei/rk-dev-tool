@@ -1,0 +1,5 @@
+# ether
+git@github.com:balena-io/etcher.git
+
+# usbimager
+https://gitlab.com/bztsrc/usbimager.git
